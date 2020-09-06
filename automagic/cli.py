@@ -19,3 +19,7 @@ async def _main():
         async with trio.open_nursery() as nursery:
             nursery.start_soon(lyre.server.run)
             nursery.start_soon(reloader.run)
+
+
+if __name__ == '__main__':
+    main()
