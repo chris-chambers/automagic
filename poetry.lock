@@ -1,13 +1,5 @@
 [[package]]
 category = "main"
-description = ""
-name = "aeval"
-optional = false
-python-versions = ">=3.8,<4.0"
-version = "0.1.2"
-
-[[package]]
-category = "main"
 description = "Async generators and context managers for Python 3.5+"
 name = "async-generator"
 optional = false
@@ -88,10 +80,9 @@ description = ""
 name = "lyre"
 optional = false
 python-versions = ">=3.8,<4.0"
-version = "0.0.4"
+version = "0.1.1"
 
 [package.dependencies]
-aeval = ">=0.1.2,<0.2.0"
 lsp = ">=0.1.1,<0.2.0"
 trio = ">=0.16.0,<0.17.0"
 
@@ -107,7 +98,6 @@ version = "0.1.0"
 reference = "c75d2cd2e84c5c3da645847578c33a685ed532c1"
 type = "git"
 url = "https://github.com/chris-chambers/magazine.git"
-
 [[package]]
 category = "dev"
 description = "More routines for operating on iterables, beyond itertools"
@@ -247,15 +237,11 @@ python-versions = "*"
 version = "0.2.5"
 
 [metadata]
-content-hash = "3810a6c27a7207984e3d649e4f04c3ba6fd6a4d77b4d20a96e7de7b525431b0b"
+content-hash = "2853d6dc5b1bbf69205ce818aa686c4d3ab497b0a732b2b40b5a12524d2bfff3"
 lock-version = "1.0"
 python-versions = "^3.8"
 
 [metadata.files]
-aeval = [
-    {file = "aeval-0.1.2-py3-none-any.whl", hash = "sha256:b7e3876820b0ecab6d21f094ef07184f9254c17ab1c3e22e3f2715810fd3f68b"},
-    {file = "aeval-0.1.2.tar.gz", hash = "sha256:cf65fcb64ade5acf3c0914084e77ccb886b9e448b00bcf1da275619095b522cb"},
-]
 async-generator = [
     {file = "async_generator-1.10-py3-none-any.whl", hash = "sha256:01c7bf666359b4967d2cda0000cc2e4af16a0ae098cbffcb8472fb9e8ad6585b"},
     {file = "async_generator-1.10.tar.gz", hash = "sha256:6ebb3d106c12920aaae42ccb6f787ef5eefdcdd166ea3d628fa8476abe712144"},
@@ -314,8 +300,8 @@ lsp = [
     {file = "lsp-0.1.1.tar.gz", hash = "sha256:28006638eacd60393ddcb7018d70cf7dbf835eced6ccb87c9dcecf3ec30bb5c3"},
 ]
 lyre = [
-    {file = "lyre-0.0.4-py3-none-any.whl", hash = "sha256:1a328099923fe9a9f511d1666059e8ed7f8381fdc1fc77e5483a742d0ccb72a5"},
-    {file = "lyre-0.0.4.tar.gz", hash = "sha256:a568f0dca12c6e0fda3967f08897223fd75bf7497141c9bf3f55b4b8f1ff2f73"},
+    {file = "lyre-0.1.1-py3-none-any.whl", hash = "sha256:bdef5f01be3b0b65066149ff4f2fa4e65d595c0884cac825e4bf3f12ed8ae3c6"},
+    {file = "lyre-0.1.1.tar.gz", hash = "sha256:2e08507c595711eb3a88ede038d8d202321d419729ddf0fdf655822dc1f98f0f"},
 ]
 magazine = []
 more-itertools = [

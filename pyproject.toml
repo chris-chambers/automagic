@@ -9,7 +9,7 @@ automagic = 'automagic.cli:main'
 
 [tool.poetry.dependencies]
 python = "^3.8"
-lyre = "^0.0.4"
+lyre = "^0.1.1"
 magazine = {git = "https://github.com/chris-chambers/magazine.git"}
 fswatch = "^0.1.1"
 trio = "^0.16.0"
