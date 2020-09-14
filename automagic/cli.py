@@ -1,3 +1,5 @@
+import functools
+
 import lyre.server
 import trio
 
@@ -17,7 +19,7 @@ async def _main():
 
     with autoreloader(reload_filter) as reloader:
         async with trio.open_nursery() as nursery:
-            nursery.start_soon(lyre.server.run)
+            nursery.start_soon(functools.partial(lyre.server.run, port=0))
             nursery.start_soon(reloader.run)
 
 
