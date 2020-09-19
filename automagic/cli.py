@@ -8,6 +8,14 @@ from . import harness
 
 
 def main():
+    import logging
+    lyre_log_level = logging.INFO
+    ch = logging.StreamHandler()
+    ch.setLevel(lyre_log_level)
+    lyre_logger = logging.getLogger('lyre')
+    lyre_logger.setLevel(lyre_log_level)
+    lyre_logger.addHandler(ch)
+
     trio.run(_main)
 
 
