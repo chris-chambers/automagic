@@ -4,6 +4,7 @@ AUTOMAGIC!
 Setup
 -----
 
+0. Install the `VS Code Extension <https://marketplace.visualstudio.com/items?itemName=python-lyre.lyre>`_
 1. Install `Poetry <https://python-poetry.org/docs/#installation>`_
 2. Install fswatch native library
 
@@ -29,4 +30,6 @@ After setup, run the package:
     automagic
 
 
-Then use the :code:`Connect: Lyre` VSCode command to connect.
+The VS Code extension should automatically connect, and allow you to evaluate
+the current selection (or line if there is no selection) in a Python with
+:code:`ctrl+enter`.
