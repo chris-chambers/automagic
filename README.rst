@@ -31,5 +31,5 @@ After setup, run the package:
 
 
 The VS Code extension should automatically connect, and allow you to evaluate
-the current selection (or line if there is no selection) in a Python with
+the current selection (or line if there is no selection) in a Python file with
 :code:`ctrl+enter`.
